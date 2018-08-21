@@ -1,4 +1,4 @@
-# Attention and external Knowledge augmented Dual Encoder with bi-directional GRU (AK-DKE-biGRU)
+# Attention and external Knowledge augmented Dual Encoder with bi-directional GRU (AK-DE-biGRU)
 
 Project for running AK-DKE-biGRU model.
 

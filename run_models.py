@@ -5,7 +5,7 @@ import numpy as np
 from data import UDCv1
 from evaluation import eval_model
 from util import save_model, clip_gradient_threshold, load_model
-from models import biGRU, A_DE_bigRU, AK_DKE_biGRU, Add_GRU
+from models import biGRU, A_DE_bigRU, AK_DE_biGRU, Add_GRU
 import argparse
 from tqdm import tqdm
 
@@ -41,12 +41,12 @@ if args.gpu:
     torch.cuda.manual_seed(args.randseed)
 
 max_seq_len = 320
-model_name = 'AK_DKE_biGRU'
+model_name = 'AK_DE_biGRU'
 #dataset
 udc = UDCv1('ubuntu_data', batch_size=args.mb_size, use_mask=True,
             max_seq_len=max_seq_len, gpu=args.gpu, use_fasttext=True)
 #model definition
-model = AK_DKE_biGRU(
+model = AK_DE_biGRU(
     udc.emb_dim, udc.vocab_size, args.h_dim, udc.vectors, 0, args.gpu
 )
 #optimizer
