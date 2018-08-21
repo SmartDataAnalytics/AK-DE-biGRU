@@ -1,6 +1,6 @@
 # Attention and external Knowledge augmented Dual Encoder with bi-directional GRU (AK-DE-biGRU)
 
-Project for running AK-DKE-biGRU model.
+Code for implementing the paper : "Improving Response Selection in Multi-turn Dialogue Systems by Incorporating Domain Knowledge"
 
 ## Getting Started
 
