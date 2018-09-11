@@ -1,6 +1,6 @@
 # Attention and external Knowledge augmented Dual Encoder with bi-directional GRU (AK-DE-biGRU)
 
-Code for implementing the paper : "Improving Response Selection in Multi-turn Dialogue Systems by Incorporating Domain Knowledge" 
+Code for implementing the paper : "[Improving Response Selection in Multi-turn Dialogue Systems by Incorporating Domain Knowledge](https://arxiv.org/pdf/1809.03194.pdf)" 
 
 ## Getting Started
 
