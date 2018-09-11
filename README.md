@@ -14,8 +14,9 @@ Run: python ./preprocess.py
 To create the required preprocessed dataset
 This will be read from data.py
 Use the train.txt file to train a fasttext model using the fasttext library:https://github.com/facebookresearch/fastText by:
+```
 ./fasttext skipgram -input train.txt -dim 200 -output fast_text_200
-
+```
 Save this file into a numpy array whose index corresponds to the word_id from the previous dictionary and the row contains the fasttext vector for that word.
 copy the file to ubuntu_data directory.
 
