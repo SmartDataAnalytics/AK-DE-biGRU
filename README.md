@@ -1,6 +1,6 @@
 # Attention and external Knowledge augmented Dual Encoder with bi-directional GRU (AK-DE-biGRU)
 
-Code for implementing the paper : "Improving Response Selection in Multi-turn Dialogue Systems by Incorporating Domain Knowledge"
+Code for implementing the paper : "Improving Response Selection in Multi-turn Dialogue Systems by Incorporating Domain Knowledge" 
 
 ## Getting Started
 
@@ -24,5 +24,6 @@ Download the ubuntu_description.npy file provided and copy it to ubuntu_data dir
 ## Running the model
 
 The AK-DKE-biGRU model should be run as:
-
+```
 python -u run_models.py --h_dim 300 --mb_size 32 --n_epoch 20 --gpu --lr 0.0001
+```
